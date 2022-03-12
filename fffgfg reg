@@ -1,3 +1,6 @@
+import math  # imports a folder of dunctions to the script so it can be used
+import random
+
 var = 10
 var1, var2, var3 = 1, 2, 3
 bar1 = bar2 = bar3 = 20  # multiple variable assignment to the same value
@@ -51,3 +54,19 @@ print("lao lao %s hed is %s years old" % (ver1, ver2))  # join more than two str
 # useless code
 
 # --
+
+pi = math.pi
+
+import math
+
+pi = -3.14  # not quite pi itself but rounded value and negative
+
+a1, a2, a3 = 1, 2, 3
+print(round(pi))  # rounds the number
+print(math.ceil(pi)) # alays rounds up
+print(math.floor(pi)) # alays rounds down
+print(abs(pi)) # absolute value
+print(pow(pi, 2))  # (argument1) to the power of (argument2)
+print(math.sqrt(420))  # square root of argument
+print(min(a1, a2, a3))  # the smallest value out of the argunemtns
+print(max(a1, a2, a3))  # the biggest value out of the arguments
