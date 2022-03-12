@@ -70,3 +70,22 @@ print(pow(pi, 2))  # (argument1) to the power of (argument2)
 print(math.sqrt(420))  # square root of argument
 print(min(a1, a2, a3))  # the smallest value out of the argunemtns
 print(max(a1, a2, a3))  # the biggest value out of the arguments
+
+naem = "Wawa Hed"
+
+first_name = naem[:4]  # only uses the first 4 letters. the first letter is represented with 0 and not 1
+# if you dont add in the 1st argument value then python will assume it is 0
+last_name = naem[5:]  # only uses the last 3 letters (because 8 - 5 = 3). 8 is the length of the name varialbe
+# if you dont add in the 2nd argument python will assume it is the last letter of the string
+funky_name = naem[0:8:3]  # the 3rd argument represents the amount of letters skipped before printing a letter.
+# for example, when the value is 3 while trying to decode "Wawa Hed", it will print out "Wae"
+reversed_name = naem[::-1]  # another way to write a str in reverse
+print(first_name)
+print(last_name)
+print(funky_name)
+print(reversed_name)
+
+website1 = "https://scratch.mit.edu"  # can be any str, is just a placeholder
+print(website1)
+slice = slice(8, -8)  # will cut the first 8 letters AND the last 8 letters off the string
+print(website1[slice])  # result: https://scratch.mit.edu --> scratch
