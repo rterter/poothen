@@ -1,0 +1,53 @@
+var = 10
+var1, var2, var3 = 1, 2, 3
+bar1 = bar2 = bar3 = 20  # multiple variable assignment to the same value
+
+print("wawa")  # print command (quotations needed)
+print(5)  # print a number
+print(var)  # print a variable
+
+bolean = True
+bolean = False
+print(bolean)  # boolean (true or false only)
+
+print("wa" * 20)  # CLone and print a string 20 times
+print("-" * 50)  # printing 50 dash lines
+
+name = "wawaHed"
+
+print(name)
+print(len(name))  # length of name
+print(name.capitalize())  # convert first letter to cap
+print(name.upper())  # convert all letters to cap
+print(name.lower())  # convert all letters to lowercase
+print(name.isdigit())  # returns true if the value is numbers only
+print(name.isalpha())  # returns true of the value is letters only
+print(name.count("a"))  # returns how much of a's are in the value
+print(name.replace("a", "o"))  # replace all a's into o's
+print(name * 3)  # (ln 13)
+
+integervariable = 1  # short for integer, is represented as a number
+floatvariable = 2  # adds a decimal place to an integer and makes it eligible for decimal math
+stringvariable = 3  # short for string, is represented as aplhabetical value and clones the string when used with the
+# multiplication command
+
+integervariable = int(integervariable)
+print(integervariable)
+print(integervariable * 10)
+floatvariable = float(floatvariable)
+print(floatvariable)
+print(floatvariable * 10)
+stringvariable = int(stringvariable)
+print(stringvariable)
+print(stringvariable * 2)
+
+name = str(input("what is your name?"))  # input waits for an answer and will return it when responded
+print(name)
+
+ver1 = "wawa"
+ver2 = 65
+print("lao lao " + ver1)  # join two strings
+print("lao lao %s hed is %s years old" % (ver1, ver2))  # join more than two strings
+# useless code
+
+# --
