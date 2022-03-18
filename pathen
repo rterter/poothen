@@ -89,3 +89,25 @@ website1 = "https://scratch.mit.edu"  # can be any str, is just a placeholder
 print(website1)
 slice = slice(8, -8)  # will cut the first 8 letters AND the last 8 letters off the string
 print(website1[slice])  # result: https://scratch.mit.edu --> scratch
+
+age = int(input("How old are you?:"))  # first ask for person's age
+
+if age == 100:  # (if you are checking is a variable is equal to an argument, you use two "="s instead of one
+    # also, the code below will only run if the boolean above returns true, otherwise it will go down (if it has more
+    # else values
+    print("you are a very very very very very very very very very very very very very very very very very very very ver"
+          "y very very very very very very very very very very very very very very very very very very very very very "
+          "very very very very old wawa person hed with grey grey grey grey grey grey grey grey grey grey grey grey gre"
+          " grey grey grey grey grey grey grey grey grey grey grey grey grey grey grey grey grey grey grey grey grey gr"
+          "ey grey grey grey grey grey hair one hadred yar old")
+elif age >= 18:  # "elif" means "else, if" where if the statement above isn't true, it will calculate this statement
+    # and continue going down again if it is still not true
+    print("you are adult you have big wawa big person belly")
+
+elif age < 0:  # another elif stop
+    print("what you are not wawa you havant even ben born yet rterterterterterterterterterterterterterterter"
+          "tertertertertertertertertertertertertertertertertertertertertertertertertertertertertertertertert"
+          "ertertertertertertertertertertertertertertertertertertertertertertertertertertertertertertertertertertertert"
+          "er")
+else:  # else means that if NONE of the statements above are true, it will activate instead
+    print("you are a chield you have skiny legs")
