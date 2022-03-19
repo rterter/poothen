@@ -111,3 +111,23 @@ elif age < 0:  # another elif stop
           "er")
 else:  # else means that if NONE of the statements above are true, it will activate instead
     print("you are a chield you have skiny legs")
+l10v1 = 1
+l10v2 = -1
+
+if not l10v1 == 1:  # the "not" logical operator will flip the boolean statement
+    # (if it is True, it becomes False and if it is false, it becomes true)
+    print("Yes")
+else:
+    print("no")
+
+if l10v1 == 1 and l10v2 == 1:  # the "and" logical operator only activates if BOTH of the
+    # statements return true
+    print("true")
+else:
+    print("false")
+
+if l10v1 == 1 or l10v2 == 1:  # the "or" operator activates if EITHER of the statements return true
+    print("true")
+else:
+    print("false")
+    
