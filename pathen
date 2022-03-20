@@ -95,6 +95,7 @@ age = int(input("How old are you?:"))  # first ask for person's age
 if age == 100:  # (if you are checking is a variable is equal to an argument, you use two "="s instead of one
     # also, the code below will only run if the boolean above returns true, otherwise it will go down (if it has more
     # else values
+    #also, you need to put a colon (:) at the end of the boolearn to run the coed
     print("you are a very very very very very very very very very very very very very very very very very very very ver"
           "y very very very very very very very very very very very very very very very very very very very very very "
           "very very very very old wawa person hed with grey grey grey grey grey grey grey grey grey grey grey grey gre"
@@ -131,3 +132,13 @@ if l10v1 == 1 or l10v2 == 1:  # the "or" operator activates if EITHER of the sta
 else:
     print("false")
     
+name = None
+
+print(not name)
+
+while not name:  # "not name" means "none" or "false" will be changed to ("True")
+    # the while loop will repeatedly running the code below until the boolean is no longer true
+    # (kind of like the scratch repeat until loop)
+    # to make it run like a forever loop, do "while 1 == 1:"
+    name = input("Enter your name: ")  # so it will keep on asking for the name until it gives a real answer
+print("Hello " + name)
