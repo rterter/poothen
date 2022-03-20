@@ -142,3 +142,9 @@ while not name:  # "not name" means "none" or "false" will be changed to ("True"
     # to make it run like a forever loop, do "while 1 == 1:"
     name = input("Enter your name: ")  # so it will keep on asking for the name until it gives a real answer
 print("Hello " + name)
+
+for seconds in range(10, 0, -1):  # 1st argument = begin counting at, 2nd arg = end counting at, 3rd arg = how much
+    # count every run
+    print(seconds)
+    time.sleep(1)  # "time.sleep" works exactly like a wait block
+print("Happy wawa new year")
