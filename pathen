@@ -151,3 +151,15 @@ for seconds in range(10, 0, -1):  # 1st argument = begin counting at, 2nd arg = 
     print(seconds)
     time.sleep(1)  # "time.sleep" works exactly like a wait block
 print("Happy wawa new year")
+
+# nested loops =    The "inner loop" will finish all of it's iterations before
+#                   finishing one iteration of the "outer loop"
+
+rows = int(input("How many rows?: "))
+columns = int(input("How many columns?: "))
+symbol = str(input("Enter a symbol to use: "))
+
+print("symbol")
+
+for i in range(rows):
+    print(symbol*columns)
