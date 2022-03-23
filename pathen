@@ -143,6 +143,9 @@ while not name:  # "not name" means "none" or "false" will be changed to ("True"
     name = input("Enter your name: ")  # so it will keep on asking for the name until it gives a real answer
 print("Hello " + name)
 
+for i in range(10):  # works like a repeat loop and repeats the statement below 10x
+    print("Hello world!")
+    
 for seconds in range(10, 0, -1):  # 1st argument = begin counting at, 2nd arg = end counting at, 3rd arg = how much
     # count every run
     print(seconds)
